@@ -1,0 +1,105 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url('https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg')
+    no-repeat center;
+  background-size: cover;
+}
+
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #e50914;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginScreen__gradient {
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
+  z-index: 1;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.loginScreen__body > h1 {
+  font-size: 3.1rem;
+  margin-bottom: 20px;
+}
+
+.loginScreen__body > h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.loginScreen__body > h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.loginScreen__input {
+  /* border: 2px solid red; */
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 660px;
+}
+
+.loginScreen__input > form {
+  display: flex;
+}
+
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  border: none;
+  height: 30px;
+  width: 30%;
+  max-width: 660px;
+  flex: 1;
+}
+
+.LoginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  outline-width: 0;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+}
